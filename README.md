@@ -1,5 +1,5 @@
 # Python wordlist generator
-Python script to generate wordlists to crack passwords using utilities like hashcat.
+Python script to generate wordlists to crack passwords using utilities like hashcat. It will generate multiple wordlists using ProcessPoolExecutor with unique words and then merge them in one big list.
 
 ### Usage
 Just run it with Python 3. No additional dependencies are required.
